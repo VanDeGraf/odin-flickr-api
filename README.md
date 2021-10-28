@@ -1,24 +1,19 @@
-# README
+## Flickr API
+This project is part of [The Odin Project Curriculum](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/flickr-api)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Description
+"_You’ll create a simple photo widget that allows you to display photos from your Flickr feed (or someone else’s)._"
 
-Things you may want to cover:
+### Requirements
+* gems:
+    * **rails** >= 6
+    * **flickr**
+    * **figaro**
 
-* Ruby version
+### Installation
+* clone repo
+* `cd` into directory
+* run `bundle`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Running
+* `rails s` to start server
