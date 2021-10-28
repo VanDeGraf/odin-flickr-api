@@ -1,0 +1,17 @@
+<br><br>
+<%= form_with method: :get do |f| %>
+  <%= f.label :id, "Flickr User ID:" %>
+  <%= f.text_field :id %>
+  <%= f.submit "Show Photos", :name => "" %>
+<% end %>
+
+<% unless @images.nil? %>
+  <h3 align="center">Photos</h3>
+  <ul>
+    <% @images.each do |img_url| %>
+      <li>
+        <img src="<%= img_url %>" alt=""/>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
